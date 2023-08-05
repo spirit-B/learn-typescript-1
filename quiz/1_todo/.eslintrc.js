@@ -1,11 +1,12 @@
+// .eslintrc.js
 module.exports = {
   root: true,
   env: {
     browser: true,
     node: true,
-    jest: true,
   },
   extends: [
+    'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -17,7 +18,7 @@ module.exports = {
         singleQuote: true,
         semi: true,
         useTabs: false,
-        tabWidth: 2,
+        tabWidth: 4,
         printWidth: 80,
         bracketSpacing: true,
         arrowParens: 'avoid',
